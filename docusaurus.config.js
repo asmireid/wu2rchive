@@ -10,7 +10,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Wu2rchive',
+  title: 'WU2rchive',
   tagline: '乌二部资料库',
   favicon: 'img/washu.png',
 
@@ -32,8 +32,8 @@ const config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'zh-Hans',
+    locales: ['zh-Hans', 'en'],
   },
 
   presets: [
@@ -47,6 +47,7 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/asmireid/wu2rchive/tree/main/',
+          showLastUpdateAuthor: true,
         },
         blog: {
           // showReadingTime: true,
@@ -76,23 +77,27 @@ const config = {
       // Replace with your project's social card
       image: 'img/wu2-social-card.jpg',
       navbar: {
-        title: 'Wu2rchive',
+        title: 'WU2rchive',
         logo: {
           alt: 'WashU Logo',
           src: 'img/logo.svg',
         },
         items: [
-          {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: '术语词典',
-          },
+          // {
+          //   type: 'docSidebar',
+          //   sidebarId: 'defaultSidebar',
+          //   position: 'left',
+          //   label: 'docs',
+          // },
+          { to: '/docs/术语词典', label: '术语词典', position: 'left' },
+          { to: '/docs/角色图鉴', label: '角色图鉴', position: 'left' },
+          { to: '/docs/编年史', label: '编年史', position: 'left' },
           // { to: '/blog', label: 'Blog', position: 'left' },
           {
             href: 'https://github.com/asmireid/wu2rchive/',
-            label: 'GitHub',
             position: 'right',
+            className: "header-github-link",
+            "aria-label": "GitHub repository",
           },
         ],
       },
@@ -100,16 +105,24 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: '文档',
             items: [
               {
                 label: '术语词典',
                 to: '/docs/术语词典',
               },
+              {
+                label: '角色图鉴',
+                to: '/docs/角色图鉴',
+              },
+              {
+                label: '编年史',
+                to: '/docs/编年史',
+              },
             ],
           },
           {
-            title: 'Community',
+            title: '社群',
             items: [
               {
                 label: 'Discord',
@@ -122,7 +135,7 @@ const config = {
             ],
           },
           {
-            title: 'More',
+            title: '更多',
             items: [
               // {
               //   label: 'Blog',
@@ -133,17 +146,17 @@ const config = {
                 href: 'https://github.com/asmireid/wu2rchive/',
               },
               {
-                label: '关注9君谢谢喵',
-                href: 'https://x.com/Rookie_9',
+                label: '关注神奇的9君谢谢喵',
+                to: '/docs/角色图鉴/神奇的9君',
               },
               {
-                label: 'WUSTL Canvas (友情链接)',
+                label: 'WUSTL Canvas（友情链接）',
                 href: 'https://wustl.instructure.com',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} 乌二部 / WU Album 2`,
+        copyright: `Copyright © ${new Date().getFullYear()} 乌二部 | WU Album 2`,
       },
       prism: {
         theme: prismThemes.github,
