@@ -35,6 +35,13 @@ export default function Home() {
       description="乌二部资料库">
       <HomepageHeader />
       <main>
+        <div className={styles.buttons}>
+          <Link
+            className="button button--outline button--primary button--lg"
+            to="https://bingobaker.com#7541756">
+            玩神人宾果
+          </Link>
+        </div>
       </main>
     </Layout>
   );
