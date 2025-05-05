@@ -12,7 +12,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 const config = {
   title: 'Wu2rchive',
   tagline: '乌二部资料库',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/washu.png',
 
   // Set the production url of your site here
   url: 'https://your-docusaurus-site.example.com',
@@ -45,8 +45,8 @@ const config = {
           sidebarPath: './sidebars.js',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          // editUrl:
-          // 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl:
+            'https://github.com/asmireid/wu2rchive/tree/main/',
         },
         blog: {
           // showReadingTime: true,
@@ -70,82 +70,74 @@ const config = {
     ],
   ],
 
-  // themeConfig:
-  //   /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-  //   ({
-  //     // Replace with your project's social card
-  //     image: 'img/docusaurus-social-card.jpg',
-  //     navbar: {
-  //       title: 'My Site',
-  //       logo: {
-  //         alt: 'My Site Logo',
-  //         src: 'img/logo.svg',
-  //       },
-  //       items: [
-  //         {
-  //           type: 'docSidebar',
-  //           sidebarId: 'tutorialSidebar',
-  //           position: 'left',
-  //           label: 'Tutorial',
-  //         },
-  //         { to: '/blog', label: 'Blog', position: 'left' },
-  //         {
-  //           href: 'https://github.com/facebook/docusaurus',
-  //           label: 'GitHub',
-  //           position: 'right',
-  //         },
-  //       ],
-  //     },
-  //     footer: {
-  //       style: 'dark',
-  //       links: [
-  //         {
-  //           title: 'Docs',
-  //           items: [
-  //             {
-  //               label: 'Tutorial',
-  //               to: '/docs/intro',
-  //             },
-  //           ],
-  //         },
-  //         {
-  //           title: 'Community',
-  //           items: [
-  //             {
-  //               label: 'Stack Overflow',
-  //               href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-  //             },
-  //             {
-  //               label: 'Discord',
-  //               href: 'https://discordapp.com/invite/docusaurus',
-  //             },
-  //             {
-  //               label: 'X',
-  //               href: 'https://x.com/docusaurus',
-  //             },
-  //           ],
-  //         },
-  //         {
-  //           title: 'More',
-  //           items: [
-  //             {
-  //               label: 'Blog',
-  //               to: '/blog',
-  //             },
-  //             {
-  //               label: 'GitHub',
-  //               href: 'https://github.com/facebook/docusaurus',
-  //             },
-  //           ],
-  //         },
-  //       ],
-  //       copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
-  //     },
-  //     prism: {
-  //       theme: prismThemes.github,
-  //       darkTheme: prismThemes.dracula,
-  //     },
-  //   }),
+  themeConfig:
+    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+    ({
+      // Replace with your project's social card
+      image: 'img/wu2-social-card.jpg',
+      navbar: {
+        title: 'Wu2rchive',
+        logo: {
+          alt: 'WashU Logo',
+          src: 'img/logo.svg',
+        },
+        items: [
+          {
+            type: 'docSidebar',
+            sidebarId: 'tutorialSidebar',
+            position: 'left',
+            label: '术语词典',
+          },
+          // { to: '/blog', label: 'Blog', position: 'left' },
+          {
+            href: 'https://github.com/asmireid/wu2rchive/',
+            label: 'GitHub',
+            position: 'right',
+          },
+        ],
+      },
+      footer: {
+        style: 'dark',
+        links: [
+          {
+            title: 'Docs',
+            items: [
+              {
+                label: '术语词典',
+                to: '/docs/术语词典',
+              },
+            ],
+          },
+          {
+            title: 'Community',
+            items: [
+              {
+                label: 'Discord',
+                href: 'https://discord.gg/HKHEVTYqXJ',
+              },
+            ],
+          },
+          {
+            title: 'More',
+            items: [
+              // {
+              //   label: 'Blog',
+              //   to: '/blog',
+              // },
+              {
+                label: 'GitHub',
+                href: 'https://github.com/asmireid/wu2rchive/',
+              },
+            ],
+          },
+        ],
+        copyright: `Copyright © ${new Date().getFullYear()} 乌二部 Built with Docusaurus.`,
+      },
+      prism: {
+        theme: prismThemes.github,
+        darkTheme: prismThemes.dracula,
+      },
+    }),
 };
 
 export default config;
