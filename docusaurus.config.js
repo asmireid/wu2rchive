@@ -115,6 +115,10 @@ const config = {
                 label: 'Discord',
                 href: 'https://discord.gg/HKHEVTYqXJ',
               },
+              {
+                label: 'Bangumi',
+                href: 'https://bgm.tv/group/ooshinowustl',
+              },
             ],
           },
           {
@@ -128,10 +132,18 @@ const config = {
                 label: 'GitHub',
                 href: 'https://github.com/asmireid/wu2rchive/',
               },
+              {
+                label: '关注9君谢谢喵',
+                href: 'https://x.com/Rookie_9',
+              },
+              {
+                label: 'WUSTL Canvas (友情链接)',
+                href: 'https://wustl.instructure.com',
+              },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} 乌二部 Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} 乌二部 / WU Album 2`,
       },
       prism: {
         theme: prismThemes.github,
