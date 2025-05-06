@@ -1,6 +1,6 @@
 ---
 tags: [已离校, 日语老师, 木柜子]
-title：Morita Ayami
+title: Morita Ayami
 ---
 
 import Admonition from '@theme/Admonition';
