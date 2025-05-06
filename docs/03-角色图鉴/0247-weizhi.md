@@ -6,7 +6,7 @@ import MemberCard from '@site/src/components/MemberCard';
 
 # weizhi
 
-> A.K.A. “第六神人” / “杜將軍”_（[玩乐奈](玩乐奈.md)赐予此名）_
+> A.K.A. “第六神人” / “杜將軍”_（[玩乐奈](0018-玩乐奈.md)赐予此名）_
 
 <MemberCard
     name="Weizhi"
@@ -17,7 +17,7 @@ import MemberCard from '@site/src/components/MemberCard';
 
 <br />
 
-喜欢東方 Project，喜欢听ヨルシカ。日语水平为 JAP104。曾与[月之森的仓田真白](月之森的仓田真白本人.md)、[玩乐奈](玩乐奈.md)、[盆栽](绿色盆栽.md)、达芬奇参与过两次华东会战。[玩乐奈](玩乐奈.md)现任室友。
+喜欢東方 Project，喜欢听ヨルシカ。日语水平为 JAP104。曾与[月之森的仓田真白](0027-月之森的仓田真白本人.md)、[玩乐奈](0018-玩乐奈.md)、[盆栽](9999-绿色盆栽.md)、达芬奇参与过两次华东会战。[玩乐奈](0018-玩乐奈.md)现任室友。
 
 最喜欢的动画：
 
