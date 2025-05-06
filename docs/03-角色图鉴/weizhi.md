@@ -1,27 +1,33 @@
 ---
-tags: [Class of 2027]
+tags: [Class of 2027, 神人]
 ---
+
+import MemberCard from '@site/src/components/MemberCard';
 
 # weizhi
 
-> A.K.A. “第六神人” / “杜將軍”（[玩乐奈](玩乐奈.md)赐予此名）
+> A.K.A. “第六神人” / “杜將軍”_（[玩乐奈](玩乐奈.md)赐予此名）_
 
+<MemberCard
+    name="Weizhi"
+    subtitle="Author"
+    avatar="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSo11G0Qra5stavtTgdWBvbwfwcxzBRoZT7DCDNackuhe-ygFAd"
+    link="https://bgm.tv/user/wdu"
+/>
 
-
-喜欢東方Project，喜欢听ヨルシカ。日语水平为JAP104。曾与[月之森的仓田真白](./完蛋啦三人组/月之森的仓田真白.md)、[玩乐奈](./完蛋啦三人组/玩乐奈.md)、[盆栽](./完蛋啦三人组/绿色盆栽.md)、达芬奇参与过两次华东会战。[玩乐奈](玩乐奈.md)现任室友。
+喜欢東方 Project，喜欢听ヨルシカ。日语水平为 JAP104。曾与[月之森的仓田真白](月之森的仓田真白本人.md)、[玩乐奈](玩乐奈.md)、[盆栽](绿色盆栽.md)、达芬奇参与过两次华东会战。[玩乐奈](玩乐奈.md)现任室友。
 
 最喜欢的动画：
 
-![CLAF](/static/img/CLAF.png)
+![CLAF](/img/CLAF.png)
 
 第二喜欢的动画：
 
-![AB](/static/img/AB.png)
+![AB](/img/AB.png)
 
 第三喜欢的动画：
 
-![BTR](/static/img/BTR.png)
-
+![BTR](/img/BTR.png)
 
 :::warning
 
