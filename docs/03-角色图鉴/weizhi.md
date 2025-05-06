@@ -15,6 +15,8 @@ import MemberCard from '@site/src/components/MemberCard';
     link="https://bgm.tv/user/wdu"
 />
 
+<br />
+
 喜欢東方 Project，喜欢听ヨルシカ。日语水平为 JAP104。曾与[月之森的仓田真白](月之森的仓田真白本人.md)、[玩乐奈](玩乐奈.md)、[盆栽](绿色盆栽.md)、达芬奇参与过两次华东会战。[玩乐奈](玩乐奈.md)现任室友。
 
 最喜欢的动画：
