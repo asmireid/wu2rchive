@@ -1,17 +1,18 @@
 ---
 tags: [已离校]
-title: William D. Richard, Ph.D.
+title: WDR
 ---
 
 import Admonition from '@theme/Admonition';
 import Signature from '@site/src/components/Signature';
 
-# 森田あやみ
+# WDR
 
 <Admonition type="tip" icon="🗄" title="进条目啥都别说，先一起喊：">
 # **“我是wdr的狗”**
 </Admonition>
 
+正式名为 William David Richard，Ph.D.，喜欢自称wdr，喜欢别人叫自己Doctor。
 
 乌手（前）电子系兼计算机系副教授，深受玩乐奈喜爱。目前Richard教授已退休。
 
