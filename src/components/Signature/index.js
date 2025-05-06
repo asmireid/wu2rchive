@@ -1,10 +1,10 @@
 import clsx from 'clsx';
 import styles from './styles.module.css';
 
-export default function Signature({ name }) {
+export default function Signature({ children }) {
     return (
         <div className={clsx(styles.rightAlign)}>
-            <em>{name}</em>
+            <em>{children}</em>
         </div>
     );
 }
