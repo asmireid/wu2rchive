@@ -12,15 +12,15 @@ tags: [Class of 2027]
 
 最喜欢的动画：
 
-![CLAF](/static/img/CLAF.png)
+![CLAF](/img/CLAF.png)
 
 第二喜欢的动画：
 
-![AB](/static/img/AB.png)
+![AB](/img/AB.png)
 
 第三喜欢的动画：
 
-![BTR](/static/img/BTR.png)
+![BTR](/img/BTR.png)
 
 :::warning
 
