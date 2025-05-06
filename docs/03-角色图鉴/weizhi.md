@@ -1,5 +1,5 @@
 ---
-tags: [Class of 2027] [CS系]
+tags: [Class of 2027]
 ---
 
 # weizhi
