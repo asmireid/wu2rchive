@@ -21,15 +21,15 @@ import MemberCard from '@site/src/components/MemberCard';
 
 最喜欢的动画：
 
-![CLAF](/img/CLAF.png)
+![CLAF](/img/anime/CLAF.png)
 
 第二喜欢的动画：
 
-![AB](/img/AB.png)
+![AB](/img/anime/AB.png)
 
 第三喜欢的动画：
 
-![BTR](/img/BTR.png)
+![BTR](/img/anime/BTR.png)
 
 :::warning
 
