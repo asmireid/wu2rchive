@@ -21,6 +21,6 @@ import Signature from '@site/src/components/Signature';
 - Minus 20: 每次考试5道题，但只判答案不看过程，错一道扣20分。如果未按规定格式写额外-20，导致每次最低分为-100
 - 由于出勤率过低，加入了每学期3次excused/unexcused absence的限制，第四次miss直接GPA -100%
 - 于2024年5月光荣退休，玩乐奈为其关门弟子
-- 其余事迹请自行查询reddit和rmp。
+- 其余事迹请自行查询reddit和rmp（经典章节有仙人掌圣经，时光机圣经等，战绩可查（指满屏的1和5））。
 
 -   https://www.cse.wustl.edu/~wdr/
