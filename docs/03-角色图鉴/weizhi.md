@@ -11,7 +11,7 @@ import MemberCard from '@site/src/components/MemberCard';
 <MemberCard
     name="Weizhi"
     subtitle="Author"
-    avatar="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSo11G0Qra5stavtTgdWBvbwfwcxzBRoZT7DCDNackuhe-ygFAd"
+    avatar="https://i.pinimg.com/736x/ff/3d/e7/ff3de7f1452cd5b93dba8bac0ac378a5.jpg"
     link="https://bgm.tv/user/wdu"
 />
 
