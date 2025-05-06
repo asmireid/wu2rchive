@@ -15,7 +15,7 @@ import Signature from '@site/src/components/Signature';
 
 <MemberCard
   name="月之森的仓田真白本人"
-  subtitle="Author"
+  subtitle="作者"
   avatar="https://lain.bgm.tv/pic/user/c/000/83/12/831297.jpg"
   link="https://bgm.tv/user/831297"
 />
