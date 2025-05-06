@@ -15,7 +15,7 @@ const config = {
   favicon: 'img/washu.png',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://wu2rchive.vercel.app',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -47,7 +47,7 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/asmireid/wu2rchive/tree/main/',
-          showLastUpdateAuthor: true,
+          // showLastUpdateAuthor: true,
         },
         blog: {
           // showReadingTime: true,
