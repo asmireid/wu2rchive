@@ -22,4 +22,6 @@ import Signature from '@site/src/components/Signature';
 
 <br />
 
+乌手（前）日语教师，深受乌二部员喜爱。
+
 -   https://ealc.wustl.edu/people/ayami-morita
