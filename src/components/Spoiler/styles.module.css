@@ -1,0 +1,10 @@
+.spoiler {
+    background-color: var(--ifm-color-primary);
+    color: var(--ifm-color-primary);
+    transition: color 0.5s ease;
+}
+
+.spoiler:hover {
+    background-color: var(--ifm-background-color);
+    color: var(--ifm-font-color-base);
+}
