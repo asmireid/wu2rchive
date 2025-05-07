@@ -17,19 +17,21 @@ import MemberCard from '@site/src/components/MemberCard';
 
 <br />
 
-喜欢東方 Project，喜欢听ヨルシカ。日语水平为 JAP104。曾与[月之森的仓田真白](0027-月之森的仓田真白本人.md)、[玩乐奈](0018-玩乐奈.md)、[盆栽](9999-绿色盆栽.md)、达芬奇参与过两次华东会战。[玩乐奈](0018-玩乐奈.md)现任室友。
+喜欢東方 Project，喜欢听ヨルシカ。日语水平为 JAP104。曾与[玩乐奈](0018-玩乐奈.md)、[盆栽](9999-绿色盆栽.md)、达芬奇对[月之森的仓田真白](0027-月之森的仓田真白本人.md)等人进行过两次华东会战。[玩乐奈](0018-玩乐奈.md)现任室友。
 
-最喜欢的动画：
+个人推荐:
 
 ![CLAF](/img/anime/CLAF.png)
 
-第二喜欢的动画：
+CLANNAD
 
 ![AB](/img/anime/AB.png)
 
-第三喜欢的动画：
+Angel Beats!
 
 ![BTR](/img/anime/BTR.png)
+
+Bocchi the Rock!
 
 :::warning
 
