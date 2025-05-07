@@ -92,8 +92,8 @@ const config = {
           { to: '/docs/术语词典', label: '术语词典', position: 'left' },
           { to: '/docs/角色图鉴', label: '角色图鉴', position: 'left' },
           { to: '/docs/编年史', label: '编年史', position: 'left' },
-          { to: 'https://github.com/asmireid/wu2rchive/?tab=readme-ov-file#wu2rchive', label: '编前需知', position: 'left' },
           // { to: '/blog', label: 'Blog', position: 'left' },
+          { href: 'https://github.com/asmireid/wu2rchive/?tab=readme-ov-file#wu2rchive', label: '编前需知', position: 'right' },
           {
             href: 'https://github.com/asmireid/wu2rchive/',
             position: 'right',
