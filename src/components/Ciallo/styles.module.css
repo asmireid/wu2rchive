@@ -1,0 +1,40 @@
+/* Ciallo.css */
+.ciallo-text {
+opacity: 0;
+transform: translateY(20px);
+transition: opacity 1s ease, transform 1s ease; /* Adjust transition for smoother animation */
+position: relative; /* Ensure positioning context */
+}
+
+.ciallo-text.visible {
+opacity: 1;
+transform: translateY(0);
+}
+
+/* Keyframes for continuous floating effect */
+@keyframes float {
+0% { transform: translateY(0); }
+50% { transform: translateY(-10px); }
+100% { transform: translateY(0); }
+}
+
+/* Apply floating animation */
+.ciallo-text.visible {
+    animation: float 3s infinite ease-in-out; /* Adjust duration and easing for desired effect */
+}
+
+/* overlay ciallo container on page */
+.ciallo-container {
+    position: fixed;
+    display: none !important;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+    cursor: pointer;
+}
+
+
