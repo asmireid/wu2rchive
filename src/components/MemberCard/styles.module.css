@@ -1,3 +1,7 @@
 .namePrimary {
     color: var(--ifm-color-primary);
 }
+
+.coverImage {
+    object-fit: cover;
+}

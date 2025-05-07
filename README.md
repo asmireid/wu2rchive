@@ -1,6 +1,12 @@
 # Wu2rchive
 
-此网站使用 [Docusaurus](https://docusaurus.io/zh-CN/) 构建。
+此网站使用 [Docusaurus](https://docusaurus.io/zh-CN/) 构建，部署在 [Vercel](https://vercel.com/) 上。
+
+# \*\*\* 请勿频繁 commit 修改，尽量一次改好。
+
+受制于 Vercel Free Plan 的[上限](https://vercel.com/docs/limits)，每天最多 build 一百次。
+
+若不想遵守的话可以考虑每月给站主 20 美金，升级成 Pro Plan。
 
 ## 编辑前建议阅读
 
@@ -75,7 +81,35 @@ import Admonition from '@theme/Admonition';
 </Admonition>
 ```
 
+告示也可以[简化写法](https://docusaurus.io/zh-CN/docs/markdown-features/admonitions)（不用引用），以默认格式出现：
+
+```
+:::note
+
+Some **content** with _Markdown_ `syntax`. Check [this `api`](#).
+
+:::
+```
+
 站主写的几个组件：
+
+### ImageCard
+
+此组件用于插入图片+链接+标题+描述的图片卡。
+
+使用例：
+
+```
+import ImageCard from '@site/src/components/ImageCard';
+
+<ImageCard
+  image="图片的链接"
+  title="想填入的标题"
+  description="想填入的描述（可以不写）"
+  link="希望点击图片后跳转到的链接（可以不写）"
+  maxWidth="设定最大宽度（可以不写，默认是480px）"
+/>
+```
 
 ### MemberCard
 
