@@ -12,7 +12,7 @@ export default function ImageCard({ image, title, description, link, maxWidth })
         <div className={clsx('card', styles.card)} style={cardStyle}>
             <div className="card__image">
                 {link ? (
-                    <a href={link} target="_blank" rel="noopener noreferrer">
+                    <a href={link} target="_blank">
                         {ImageElement}
                     </a>
                 ) : (

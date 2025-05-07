@@ -1,7 +1,8 @@
 .spoiler {
     background-color: var(--ifm-color-primary);
     color: var(--ifm-color-primary);
-    transition: color 0.5s ease;
+    transition: all 0.5s ease;
+    padding: 0 0.25em;
 }
 
 .spoiler:hover {

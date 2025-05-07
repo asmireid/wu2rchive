@@ -4,13 +4,14 @@ title: Morita Ayami
 ---
 
 import Admonition from '@theme/Admonition';
+import ImageCard from '@site/src/components/ImageCard'
 import MemberCard from '@site/src/components/MemberCard';
 import Signature from '@site/src/components/Signature';
 
 # 森田あやみ
 
 <Admonition type="tip" icon="🗄" title="进条目啥都别说，先一起喊：">
-# **“MoritaSensei, 我们敬爱您口牙！！！！！”**
+# **“Morita Sensei, 我们敬爱您口牙!!!!!”**
 </Admonition>
 
 <MemberCard
@@ -22,6 +23,9 @@ import Signature from '@site/src/components/Signature';
 
 <br />
 
-乌手（前）日语教师，深受乌二部员喜爱。
-
--   https://ealc.wustl.edu/people/ayami-morita
+<ImageCard
+  image='https://ealc.wustl.edu/files/ealc/styles/testimonial_desktop/public/People/EALC_Morita_Ayami.jpg'
+  title='EALC_Morita_Ayami'
+  description='乌手（前）日语教师，深受乌二部员喜爱。'
+  link='https://ealc.wustl.edu/people/ayami-morita'
+/>
