@@ -1,10 +1,17 @@
 import React, { useState, useEffect, useCallback } from 'react';
+import BrowserOnly from '@docusaurus/BrowserOnly';
 import './styles.module.css';
 
 const Ciallo = ({ children, duration = 2000, delay = 0 }) => {
   const [isVisible, setIsVisible] = useState(false);
   const [aIdx, setAIdx] = useState(0);
-  const ac = new (window.AudioContext || window.webkitAudioContext)();
+  const [ac, setAc] = useState(null);
+
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      setAc(new (window.AudioContext || window.webkitAudioContext)());
+    }
+  }, []);
 
   const color16 = () => {
     const r = Math.floor(Math.random() * 256);
@@ -72,9 +79,11 @@ const Ciallo = ({ children, duration = 2000, delay = 0 }) => {
   }, [delay, aIdx, loadSound]);
 
   return (
-    <div className={`ciallo-text ${isVisible ? 'visible' : ''}`} style={{ animationDuration: `${duration}ms` }}>
-      {children}
-    </div>
+    <BrowserOnly>
+       {() => <div className={`ciallo-text ${isVisible ? 'visible' : ''}`} style={{ animationDuration: `${duration}ms` }}>
+        {children}
+      </div>}
+    </BrowserOnly>
   );
 };
 
