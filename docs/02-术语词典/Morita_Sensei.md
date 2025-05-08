@@ -24,7 +24,7 @@ import Signature from '@site/src/components/Signature';
 <br />
 
 <ImageCard
-  image='https://ealc.wustl.edu/files/ealc/styles/testimonial_desktop/public/People/EALC_Morita_Ayami.jpg'
+  image='/img/people/EALC_Morita_Ayami.jpg'
   title='EALC_Morita_Ayami'
   description='乌手（前）日语教师，深受乌二部员喜爱。'
   link='https://ealc.wustl.edu/people/ayami-morita'

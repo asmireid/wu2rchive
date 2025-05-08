@@ -1,5 +1,5 @@
 ---
-tags: [Class of 2027, 神人]
+tags: [Class of 2027, 神人, 传奇TA]
 ---
 
 import MemberCard from '@site/src/components/MemberCard';
@@ -11,7 +11,7 @@ import MemberCard from '@site/src/components/MemberCard';
 <MemberCard
     name="Weizhi"
     subtitle="词条主角"
-    avatar="https://i.pinimg.com/736x/ff/3d/e7/ff3de7f1452cd5b93dba8bac0ac378a5.jpg"
+    avatar="/img/avatar/weizhi.jpg"
     link="https://bgm.tv/user/wdu"
 />
 
