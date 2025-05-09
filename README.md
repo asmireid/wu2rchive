@@ -93,6 +93,17 @@ Some **content** with _Markdown_ `syntax`. Check [this `api`](#).
 
 站主写的几个组件：
 
+### ColoredText
+
+此组件用于插入自定义颜色的文字，不会影响自带颜色的部分（如链接）。
+
+使用例：
+
+```
+import ColoredText from '@site/src/components/ColoredText';
+其他前文<ColoredText color="文字颜色，支持 hex-value 或 css color names" colorDark="深色模式下的颜色（可以不写）">内部文字（支持 Markdown 语法）</ColoredText>其他后文
+```
+
 ### ImageCard
 
 此组件用于插入图片+链接+标题+描述的图片卡。

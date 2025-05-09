@@ -1,0 +1,7 @@
+.coloredText {
+    color: var(--text-color);
+}
+
+[data-theme='dark'] .coloredText {
+    color: var(--text-color-dark, var(--text-color));
+}
