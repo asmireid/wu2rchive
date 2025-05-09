@@ -114,7 +114,10 @@ https://www.pixiv.net/artworks/103801115
 京吹 3，素晴 3，GBC，夜之水母，摇曳露营 3，失忆投捕，恋语轻唱，约战 5，无职 2 后半，新狼辛，BA，如此等等不一而足。\
 群内的活跃用户欢呼雀跃，疯狂赞美这一业界赐予的神仙季度，纷纷押宝新番，为后来诸多番剧口碑爆炸埋下了伏笔。
 
-<h2 className="purple-title">
+<h2
+  className="colored-title"
+  style={{ '--title-color': '#ff8c00' }}
+>
 2024-04-19 神权君受
 </h2>
 
