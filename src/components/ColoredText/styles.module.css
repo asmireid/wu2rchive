@@ -5,3 +5,11 @@
 [data-theme='dark'] .coloredText {
     color: var(--text-color-dark, var(--text-color));
 }
+
+.coloredText * {
+    color: inherit;
+}
+
+.coloredText a {
+    text-decoration: underline;
+}

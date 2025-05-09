@@ -101,6 +101,7 @@ Some **content** with _Markdown_ `syntax`. Check [this `api`](#).
 
 ```
 import ColoredText from '@site/src/components/ColoredText';
+
 其他前文<ColoredText color="文字颜色，支持 hex-value 或 css color names" colorDark="深色模式下的颜色（可以不写）">内部文字（支持 Markdown 语法）</ColoredText>其他后文
 ```
 
