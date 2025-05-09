@@ -51,3 +51,7 @@ html[data-theme='dark'] .header-github-link:before {
 .markdown h3.colored-title {
   color: var(--title-color, inherit);
 }
+/* Custom text-color */
+.markdown .colored-text {
+  color: var(--text-color, inherit);
+}
