@@ -2,10 +2,10 @@
     background-color: var(--ifm-color-primary);
     color: var(--ifm-color-primary);
     transition: all 0.5s ease;
-    padding: 0 0.25em;
+    padding: 0 0.1em;
 }
 
 .spoiler:hover {
-    background-color: var(--ifm-background-color);
-    color: var(--ifm-font-color-base);
+    color: inherit;
+    background-color: inherit;
 }

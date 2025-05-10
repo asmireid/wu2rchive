@@ -109,7 +109,7 @@ import ColoredText from '@site/src/components/ColoredText';
 
 此组件用于插入图片+链接+标题+描述的图片卡。
 
-使用例：
+使用例 A（无子元素）：
 
 ```
 import ImageCard from '@site/src/components/ImageCard';
@@ -117,10 +117,25 @@ import ImageCard from '@site/src/components/ImageCard';
 <ImageCard
   image="图片的链接"
   title="想填入的标题"
-  description="想填入的描述（可以不写）"
+  subtitle="想填入的副标题（可以不写）"
   link="希望点击图片后跳转到的链接（可以不写）"
   maxWidth="设定最大宽度（可以不写，默认是480px）"
 />
+```
+
+使用例 B（有子元素）:
+
+```
+import ImageCard from '@site/src/components/ImageCard';
+
+<ImageCard
+  image="图片的链接"
+  title="想填入的标题"
+  subtitle="想填入的副标题（可以不写）"
+  link="希望点击图片后跳转到的链接（可以不写）"
+  maxWidth="设定最大宽度（可以不写，默认是480px）">
+子元素（支持 Markdown 语法）
+</ImageCard>
 ```
 
 ### MemberCard
