@@ -142,7 +142,7 @@ import ImageCard from '@site/src/components/ImageCard';
 
 此组件用于插入圆形头像+链接+姓名+描述的人物卡。
 
-使用例：
+使用例 A（无子元素）：
 
 ```
 import MemberCard from '@site/src/components/MemberCard';
@@ -153,6 +153,20 @@ import MemberCard from '@site/src/components/MemberCard';
     avatar="头像图片的链接（建议为方形）"
     link="希望点击头像后跳转到的链接（可以不写）"
 />
+```
+
+使用例 B（有子元素）:
+
+```
+import MemberCard from '@site/src/components/MemberCard';
+
+<MemberCard
+    name="想填入的名字"
+    subtitle="想加入的副标题描述（可以不写）"
+    avatar="头像图片的链接（建议为方形）"
+    link="希望点击头像后跳转到的链接（可以不写）">
+子元素（支持 Markdown 语法）
+</MemberCard>
 ```
 
 ### Signature

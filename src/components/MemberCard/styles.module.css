@@ -5,3 +5,7 @@
 .coverImage {
     object-fit: cover;
 }
+
+.avatarDiv {
+    margin-bottom: 0.75rem;
+}
