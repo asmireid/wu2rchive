@@ -74,8 +74,8 @@ import Admonition from '@theme/Admonition';
 
 <Admonition
     type="告示类型（支持的类型请参考上面官方文档）"
-    icon="告示图标，支持emoji（可以不写）"
-    title="告示标题（可以不写）"
+    icon="告示图标，支持emoji（可省略此参数）"
+    title="告示标题（可省略此参数）"
 >
     告示内容（支持 Markdown 语法）
 </Admonition>
@@ -91,6 +91,29 @@ Some **content** with _Markdown_ `syntax`. Check [this `api`](#).
 :::
 ```
 
+### Tabs
+
+此组件用于插入[选项卡](https://docusaurus.io/zh-CN/docs/markdown-features/tabs)。
+
+使用例：
+
+```
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+<Tabs>
+  <TabItem value="apple" label="Apple" default>
+    This is an apple 🍎
+  </TabItem>
+  <TabItem value="orange" label="Orange">
+    This is an orange 🍊
+  </TabItem>
+  <TabItem value="banana" label="Banana">
+    This is a banana 🍌
+  </TabItem>
+</Tabs>
+```
+
 站主写的几个组件：
 
 ### ColoredText
@@ -102,7 +125,7 @@ Some **content** with _Markdown_ `syntax`. Check [this `api`](#).
 ```
 import ColoredText from '@site/src/components/ColoredText';
 
-其他前文<ColoredText color="文字颜色，支持 hex-value 或 css color names" colorDark="深色模式下的颜色（可以不写）">内部文字（支持 Markdown 语法）</ColoredText>其他后文
+其他前文<ColoredText color="文字颜色，支持 hex-value 或 css color names" colorDark="深色模式下的颜色（可省略此参数）">内部文字（支持 Markdown 语法）</ColoredText>其他后文
 ```
 
 ### ImageCard
@@ -117,9 +140,9 @@ import ImageCard from '@site/src/components/ImageCard';
 <ImageCard
   image="图片的链接"
   title="想填入的标题"
-  subtitle="想填入的副标题（可以不写）"
-  link="希望点击图片后跳转到的链接（可以不写）"
-  maxWidth="设定最大宽度（可以不写，默认是480px）"
+  subtitle="想填入的副标题（可省略此参数）"
+  link="希望点击图片后跳转到的链接（可省略此参数）"
+  maxWidth="设定最大宽度（可省略此参数，默认为480px）"
 />
 ```
 
@@ -131,9 +154,9 @@ import ImageCard from '@site/src/components/ImageCard';
 <ImageCard
   image="图片的链接"
   title="想填入的标题"
-  subtitle="想填入的副标题（可以不写）"
-  link="希望点击图片后跳转到的链接（可以不写）"
-  maxWidth="设定最大宽度（可以不写，默认是480px）">
+  subtitle="想填入的副标题（可省略此参数）"
+  link="希望点击图片后跳转到的链接（可省略此参数）"
+  maxWidth="设定最大宽度（可省略此参数，默认为480px）">
 子元素（支持 Markdown 语法）
 </ImageCard>
 ```
@@ -149,9 +172,9 @@ import MemberCard from '@site/src/components/MemberCard';
 
 <MemberCard
     name="想填入的名字"
-    subtitle="想加入的副标题描述（可以不写）"
+    subtitle="想加入的副标题描述（可省略此参数）"
     avatar="头像图片的链接（建议为方形）"
-    link="希望点击头像后跳转到的链接（可以不写）"
+    link="希望点击头像后跳转到的链接（可省略此参数）"
 />
 ```
 
@@ -162,11 +185,23 @@ import MemberCard from '@site/src/components/MemberCard';
 
 <MemberCard
     name="想填入的名字"
-    subtitle="想加入的副标题描述（可以不写）"
+    subtitle="想加入的副标题描述（可省略此参数）"
     avatar="头像图片的链接（建议为方形）"
-    link="希望点击头像后跳转到的链接（可以不写）">
+    link="希望点击头像后跳转到的链接（可省略此参数）">
 子元素（支持 Markdown 语法）
 </MemberCard>
+```
+
+### Redacted
+
+此组件用于插入黑条，模拟【数据删除】。
+
+使用例：
+
+```
+import Redacted from '@site/src/components/Redacted';
+
+<Redacted length={长度数字（可省略此参数，默认为 4）} shade={是否使用▒代替█（可省略此参数，默认为 false）} />
 ```
 
 ### Signature
