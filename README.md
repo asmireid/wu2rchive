@@ -142,7 +142,7 @@ import ImageCard from '@site/src/components/ImageCard';
   title="想填入的标题"
   subtitle="想填入的副标题（可省略此参数）"
   link="希望点击图片后跳转到的链接（可省略此参数）"
-  maxWidth="设定最大宽度（可省略此参数，默认为480px）"
+  maxWidth="设定最大宽度（可省略此参数，默认为360px）"
 />
 ```
 
@@ -156,7 +156,7 @@ import ImageCard from '@site/src/components/ImageCard';
   title="想填入的标题"
   subtitle="想填入的副标题（可省略此参数）"
   link="希望点击图片后跳转到的链接（可省略此参数）"
-  maxWidth="设定最大宽度（可省略此参数，默认为480px）">
+  maxWidth="设定最大宽度（可省略此参数，默认为360px）">
 子元素（支持 Markdown 语法）
 </ImageCard>
 ```

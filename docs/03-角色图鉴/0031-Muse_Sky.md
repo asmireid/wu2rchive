@@ -17,6 +17,12 @@ import Spoiler from '@site/src/components/Spoiler';
   link="https://bgm.tv/user/965479"
 />
 
+:::warning
+
+_施工中_
+
+:::
+
 ## 简介
 
 于 2024 年 8 月 31 日正式加入乌二部，契机是 Lee Hall 举办的你画我猜活动，最初由[盆栽](9999-绿色盆栽.md)引荐入群。
@@ -74,9 +80,3 @@ import Spoiler from '@site/src/components/Spoiler';
 ### Arcaea
 
 Arcaea 牢玩家，入坑和回坑时间与 Bangdream 相近。普通单星人，目前潜力值 12.03。
-
-:::warning
-
-_未完待续_。
-
-:::

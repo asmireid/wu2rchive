@@ -18,6 +18,12 @@ import MemberCard from '@site/src/components/MemberCard';
     link="https://bgm.tv/user/wdu"
 />
 
+:::warning
+
+_施工中_
+
+:::
+
 ## 简介
 
 喜欢東方 Project，喜欢听ヨルシカ。\
@@ -55,9 +61,3 @@ import MemberCard from '@site/src/components/MemberCard';
     />
   </TabItem>
 </Tabs>
-
-:::warning
-
-_未完待续_。
-
-:::
