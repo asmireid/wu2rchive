@@ -1,5 +1,5 @@
 ---
-tags: [Class of 2027, 神人, 邦邦人, 车万众, 反月雅士, 月丑, Arcaea, 羁绊：天降青梅]
+tags: [Class of 2027, 神人, 邦邦人, 车万众, 反月雅士, 月丑, Arcaea, 羁绊：天降青梅, 羁绊：沪国聚会]
 ---
 
 import Admonition from '@theme/Admonition';
