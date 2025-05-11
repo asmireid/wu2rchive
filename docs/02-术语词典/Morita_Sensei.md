@@ -44,6 +44,8 @@ Morita sensei是名古屋出身，生日2月24日。<Spoiler>出生年份未知<
     image='/img/screenshot/离校寄语.png'
     title=' '
   />
+</Admonition>
+    
 ## 联系方式
     
  moriaya0224@gmail.com
