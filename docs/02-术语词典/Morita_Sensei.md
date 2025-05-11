@@ -7,8 +7,9 @@ import Admonition from '@theme/Admonition';
 import ImageCard from '@site/src/components/ImageCard'
 import MemberCard from '@site/src/components/MemberCard';
 import Signature from '@site/src/components/Signature';
+import Spoiler from '@site/src/components/Spoiler';
 
-# 森田あやみ
+# 森田 絢美 <Spoiler>~炫美~</Spoiler>
 
 <Admonition type="tip" icon="🗄" title="进条目啥都别说，先一起喊：">
 # **“Morita Sensei, 我们敬爱您口牙!!!!!”**
@@ -24,7 +25,7 @@ import Signature from '@site/src/components/Signature';
 <br />
 
 <ImageCard
-  image='/img/people/EALC_Morita_Ayami.jpg'
+  image='/img/reality/people/EALC_Morita_Ayami.jpg'
   title='EALC_Morita_Ayami'
   description='乌手（前）日语教师，深受乌二部员喜爱。'
   link='https://ealc.wustl.edu/people/ayami-morita'

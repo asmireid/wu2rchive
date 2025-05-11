@@ -1,7 +1,7 @@
 import clsx from 'clsx';
 import styles from './styles.module.css';
 
-export default function ImageCard({ image, title, description, link, maxWidth }) {
+export default function ImageCard({ image, title, subtitle, link, maxWidth, children }) {
     const ImageElement = (
         <img className={styles.image} src={image} alt={title} />
     );
@@ -21,7 +21,8 @@ export default function ImageCard({ image, title, description, link, maxWidth })
             </div>
             <div className="card__body">
                 <h4 className={styles.title}>{title}</h4>
-                {description && <small className={styles.description}>{description}</small>}
+                {subtitle && <small className={styles.subtitle}>{subtitle}</small>}
+                {children}
             </div>
         </div>
     );
