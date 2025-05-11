@@ -12,7 +12,7 @@ import Spoiler from '@site/src/components/Spoiler';
 # 森田 絢美 <Spoiler>~炫美~</Spoiler>
 
 <Admonition type="tip" icon="🗄" title="进条目啥都别说，先一起喊：">
-# **“Morita Sensei, 我们敬爱您口牙!!!!!”**
+# **“絢老师，我们想您了😭😭😭”**
 </Admonition>
 
 <MemberCard
@@ -30,3 +30,20 @@ import Spoiler from '@site/src/components/Spoiler';
   description='乌手（前）日语教师，深受乌二部员喜爱。'
   link='https://ealc.wustl.edu/people/ayami-morita'
 />
+## 一些可公开的情报
+
+Morita sensei是名古屋出身，生日2月24日。<Spoiler>出生年份未知</Spoiler>
+
+## 离校寄语
+<Admonition type="tip" icon="🎓" title="こんがっき">
+  <MemberCard
+    name="“森田 絢美”"
+    avatar="/img/reality/people/EALC_Morita_Ayami.jpg"
+  />
+  <ImageCard
+    image='/img/screenshot/离校寄语.png'
+    title=' '
+  />
+## 联系方式
+    
+ moriaya0224@gmail.com
