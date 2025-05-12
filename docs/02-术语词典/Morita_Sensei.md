@@ -47,12 +47,13 @@ Morita sensei是名古屋出身，生日2月24日。<Spoiler>出生年份未知<
     avatar="/img/reality/people/EALC_Morita_Ayami.jpg"
     link="moriaya0224@gmail.com"
   />
-  <ImageCard
-    image='/img/screenshot/离校寄语.png'
-    title=' '
-  />
+みなさん、こんにちは。
+しけんも作文も、ぜんぶおわりましたか。よくがんばりましたね!ポスタ-セッションのみなさん、ほんとうにかっこよかったですサそして、こんがっきはみなさんといっしょに日本語でたくさん話すことができて、とても楽しかったです。
+<Spoiler>数据删除</Spoiler>
+
+じやあ、また会いましょう!これからもがんばってください☺️
+日本に行くとき、話したい時、いつでもメ-ルくださいわ。私のメ-ルアドレスは<Spoiler>数据删除</Spoiler>です.
+森田絢美
 </Admonition>
     
-## 联系方式
-    
- moriaya0224@gmail.com
+
