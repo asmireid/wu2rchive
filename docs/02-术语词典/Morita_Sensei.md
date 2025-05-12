@@ -8,11 +8,14 @@ import ImageCard from '@site/src/components/ImageCard'
 import MemberCard from '@site/src/components/MemberCard';
 import Signature from '@site/src/components/Signature';
 import Spoiler from '@site/src/components/Spoiler';
+import Redacted from '@site/src/components/Redacted';
 
 # 森田 絢美 <Spoiler>~炫美~</Spoiler>
 
 <Admonition type="tip" icon="🗄" title="进条目啥都别说，先一起喊：">
-# **“絢老师，我们想您了😭😭😭”**
+
+# **“絢老师，我们想您了 😭😭😭”**
+
 </Admonition>
 
 <MemberCard
@@ -27,33 +30,41 @@ import Spoiler from '@site/src/components/Spoiler';
 <ImageCard
   image='/img/reality/people/EALC_Morita_Ayami.jpg'
   title='EALC_Morita_Ayami'
-  description='乌手（前）日语教师，深受乌二部员喜爱。'
-  link='https://ealc.wustl.edu/people/ayami-morita'
-/>
+  link='https://ealc.wustl.edu/people/ayami-morita'>
+乌手<Spoiler>前</Spoiler>日语教师，深受乌二部员喜爱。
+</ImageCard>
+
 ## 目前可公开的情报
 
-Morita sensei是名古屋出身，生日2月24日。<Spoiler>出生年份未知</Spoiler>\
-因为她充满活力<Spoiler>元气满满/KiraKira/DokiDoki</Spoiler>的授课风格而<Spoiler>被几个木柜子痴奉若神明</Spoiler>受到大家的一致好评\
+Morita sensei 是名古屋出身，生日 2 月 24 日。<Spoiler>出生年份未知</Spoiler>\
+因为她充满活力<Spoiler>元气满满/KiraKira/DokiDoki</Spoiler>的授课风格而<Spoiler>被几个木柜子痴奉若神明</Spoiler>受到大家的一致好评
+
 每节课都像是小偶像粉丝见面会一样跟大家互动营业\
-每天上完了她的课感觉就能打起精神来<Signature>某不愿提供姓名的first-level Japanese学生</Signature>\
+每天上完了她的课感觉就能打起精神来
+
+<Signature>——某不愿提供姓名的 first-level Japanese 学生</Signature>
+
+<br/><br/>
 由于在乌手任教的一年里遇到<Spoiler>不幸摊上</Spoiler>了几个<Spoiler>木柜子痴</Spoiler>中国学生\
 而被当作了青木阳菜小姐的代餐,称为<Spoiler>性价比青木阳菜</Spoiler>
 
 ## 离校寄语
+
 <Admonition type="tip" icon="🎓" title="こんがっき">
-  <MemberCard
-    name="森田 絢美"
-    subtitle="作者"
-    avatar="/img/reality/people/EALC_Morita_Ayami.jpg"
-    link="moriaya0224@gmail.com"
-  />
+
+<MemberCard
+  name="森田 絢美"
+  subtitle="作者"
+  avatar="/img/reality/people/EALC_Morita_Ayami.jpg"
+  link="moriaya0224@gmail.com"
+/>
+
 みなさん、こんにちは。
-しけんも作文も、ぜんぶおわりましたか。よくがんばりましたね!ポスタ-セッションのみなさん、ほんとうにかっこよかったですサそして、こんがっきはみなさんといっしょに日本語でたくさん話すことができて、とても楽しかったです。
-<Spoiler>数据删除</Spoiler>
+しけんも作文も、ぜんぶおわりましたか。よくがんばりましたね!ポスタ-セッションのみなさん、ほんとうにかっこよかったですサそして、こんがっきはみなさんといっしょに日本語でたくさん話すことができて、とても楽しかったです。<Redacted/>
 
-じやあ、また会いましょう!これからもがんばってください☺️
-日本に行くとき、話したい時、いつでもメ-ルくださいわ。私のメ-ルアドレスは<Spoiler>数据删除</Spoiler>です.
-森田絢美
+じやあ、また会いましょう!これからもがんばってください ☺️
+日本に行くとき、話したい時、いつでもメ-ルくださいわ。私のメ-ルアドレスは<Redacted/>です.
+
+<Signature>森田絢美</Signature>
+
 </Admonition>
-    
-
