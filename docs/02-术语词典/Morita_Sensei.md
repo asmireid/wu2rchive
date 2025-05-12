@@ -41,10 +41,8 @@ Morita sensei 是名古屋出身，生日 2 月 24 日。<Spoiler>出生年份�
 
 每节课都像是小偶像粉丝见面会一样跟大家互动营业\
 每天上完了她的课感觉就能打起精神来
-
 <Signature>——某不愿提供姓名的 first-level Japanese 学生</Signature>
 
-<br/><br/>
 由于在乌手任教的一年里遇到<Spoiler>不幸摊上</Spoiler>了几个<Spoiler>木柜子痴</Spoiler>中国学生\
 而被当作了青木阳菜小姐的代餐,称为<Spoiler>性价比青木阳菜</Spoiler>
 
