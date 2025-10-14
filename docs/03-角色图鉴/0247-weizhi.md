@@ -1,5 +1,5 @@
 ---
-tags: [Class of 2027, 神人, 传奇TA]
+tags: [Class of 2027, 神人, 车万众, 传奇TA]
 ---
 
 import Tabs from '@theme/Tabs';
