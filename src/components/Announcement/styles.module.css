@@ -1,0 +1,81 @@
+.dialog {
+    width: min(32rem, calc(100% - 2rem));
+    max-height: calc(100vh - 2rem);
+    padding: 0;
+    color: var(--ifm-font-color-base);
+    background: var(--ifm-background-surface-color);
+    border: 1px solid var(--ifm-color-emphasis-300);
+    border-radius: var(--ifm-global-radius);
+    box-shadow: 0 1rem 3rem rgb(0 0 0 / 30%);
+}
+
+.dialog[open] {
+    animation: appear 160ms ease-out;
+}
+
+.dialog::backdrop {
+    background: rgb(0 0 0 / 55%);
+    backdrop-filter: blur(2px);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.25rem 1.5rem;
+    border-bottom: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.title {
+    flex: 1;
+    margin: 0;
+    font-size: 1.25rem;
+}
+
+.close {
+    width: 2rem;
+    height: 2rem;
+    padding: 0;
+    color: var(--ifm-color-emphasis-700);
+    font-size: 1.5rem;
+    line-height: 1;
+    background: transparent;
+    border: 0;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.close:hover {
+    background: var(--ifm-color-emphasis-200);
+}
+
+.body {
+    max-height: 60vh;
+    padding: 1.5rem;
+    overflow-y: auto;
+}
+
+.body > :last-child {
+    margin-bottom: 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 1.5rem;
+    background: var(--ifm-color-emphasis-100);
+    border-top: 1px solid var(--ifm-color-emphasis-200);
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+        transform: translateY(0.5rem) scale(0.98);
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .dialog[open] {
+        animation: none;
+    }
+}
